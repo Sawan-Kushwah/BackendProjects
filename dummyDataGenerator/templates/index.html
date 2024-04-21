@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy Data Gentrator</title>
+</head>
+<style>
+    body {
+        background-color: black;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .btn {
+        padding: 5px 10px;
+        border: 3px solid white;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: all 1s ease;
+        font-size: 3rem;
+
+    }
+
+    .btn:hover {
+        background-color: white;
+        color: black;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <form action="/success" method="post">
+            <button class="btn" type="submit">Generate Dummy Data</button>
+        </form>
+    </div>
+</body>
+
+</html>
